@@ -1,0 +1,25 @@
+h1. Chrome WebStore Install Notification Bar
+
+Displays a notification bar informing users to install the Chrome Web Store App.
+
+More info "here".
+
+h2. Requirements:
+
+* Chrome Web Browser
+
+h2. How To:
+
+* Copy the chrome-notification.*css* files to web server
+* Include the chrome-notification.js script on your main page
+* Edit the configuration parameters at the top of the chrome-notification.js
+
+
+h2. Inspired by:
+
+* "badgemator":https://github.com/PaulKinlan/badgemator by Paul Kinlan
+* "jolicloud":http://www.jolicloud.com/ notification bar
+
+Andre Goncalves
+"@andregoncalves":http://twitter.com/andregoncalves
+"blog":http://andregoncalves.com

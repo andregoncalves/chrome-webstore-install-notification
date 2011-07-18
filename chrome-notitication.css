@@ -1,0 +1,32 @@
+#chrome-bar {
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  margin-top: -30px;
+  color: black;
+  text-shadow: none;
+  border-bottom: 1px solid hsl(0, 0%, 48%);
+  background: -webkit-gradient(linear,left top,left bottom,from(hsl(51, 97%, 88%)),to(hsl(50, 87%, 81%)));
+  -webkit-transition: all .3s ease-in-out;
+}
+#chrome-bar.visible {
+  margin-top: 0;
+}
+#chrome-bar div.right {
+  float: right;
+  margin-right: 10px;
+}
+#chrome-bar div.right button {
+  margin-right: 10px;
+}
+#chrome-bar div.right span {
+  font-size: 1.2em;
+  cursor: pointer;
+}
+#chrome-bar img {
+  float: left;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: 3px;
+  -webkit-border-radius: 5px;
+}
