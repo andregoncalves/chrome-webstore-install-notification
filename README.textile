@@ -14,13 +14,13 @@ h2. How To:
 * Include the chrome-notification.js script on your main page
 * Edit the configuration parameters at the top of the chrome-notification.js
 
-
 h2. Inspired by:
 
 * "badgemator":https://github.com/PaulKinlan/badgemator by Paul Kinlan
 * "jolicloud":http://www.jolicloud.com/ notification bar
 
 h2. Author
+
 Andre Goncalves
 "@andregoncalves":http://twitter.com/andregoncalves
 "blog":http://andregoncalves.com
