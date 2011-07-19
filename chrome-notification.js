@@ -29,8 +29,8 @@
       button.id = "chrome-install";
       button.innerText = "Install"
       button.addEventListener('click', function() {
-        if (g_analytics)
-          if (window._gaq) _gaq.push(g_analytics);
+        if (g_analytics && window._gaq)
+          window._gaq.push(g_analytics);
 
         window.open(app_install_url);
         return false;
@@ -48,9 +48,12 @@
       right.appendChild(close);
       container.appendChild(right);
 
-      var icon = document.createElement('img');
-      icon.src = app_icon;
-      container.appendChild(icon);
+      if (app_icon)
+      {
+        var icon = document.createElement('img');
+        icon.src = app_icon;
+        container.appendChild(icon);
+      }
 
       var message = document.createElement('p');
       message.innerHTML = message_html;
@@ -69,11 +72,11 @@
       }
     }
 
-    animatedDisplay = function() {
+    showAnimatedNotification = function() {
       var bar = document.getElementById('chrome-bar');
-      bar.style.display = "";
 
       window.addEventListener('load', function() {
+        bar.style.display = "block";
         setTimeout(function() {
           bar.className = 'visible';
         }, 500);
@@ -83,7 +86,7 @@
     if (!isInstalled && !isCancelled) {
       createNotificationBar();
       addStylesheet();
-      animatedDisplay();
+      showAnimatedNotification();
     }
   }
 })();

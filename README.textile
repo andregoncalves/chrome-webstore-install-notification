@@ -1,26 +1,53 @@
 h1. Chrome WebStore Install Notification Bar
 
-Displays a notification bar informing users to install the Chrome Web Store App.
+Javascript library to display a notification bar informing users that a Chrome Web Store App is available.
+Example:
+
+!http://www.mappeo.net/images/chrome-install-bar.png(Web Store Install Notification Bar)!
 
 More info "here".
 
-h2. Requirements:
+h3. Requirements:
 
 * Chrome Web Browser
 
-h2. How To:
+h3. How To:
 
 * Copy the chrome-notification.* files to web server
 * Include the chrome-notification.js script on your main page
 * Edit the configuration parameters at the top of the chrome-notification.js
 
-h2. Inspired by:
+h3. Inspired by:
 
 * "badgemator":https://github.com/PaulKinlan/badgemator by Paul Kinlan
 * "jolicloud":http://www.jolicloud.com/ notification bar
 
-h2. Author
+h3. Author
 
 Andre Goncalves
 "@andregoncalves":http://twitter.com/andregoncalves
 "blog":http://andregoncalves.com
+
+h3. License
+
+The MIT License
+
+Copyright (C) 2011 by Andre Goncalves
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
