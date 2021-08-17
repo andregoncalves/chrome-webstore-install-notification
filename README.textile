@@ -1,9 +1,9 @@
+Project is archived
+
 h1. Chrome Web Store Notification Bar
 
 Javascript library to dynamically display a notification bar redirecting Chrome users to the Web Store install page.
 Example:
-
-!http://www.mappeo.net/images/chrome-install-bar.png(Web Store Install Notification Bar)!
 
 More info "here":http://andregoncalves.com/2011/07/18/chrome-webstore-notification-bar.html.
 
